@@ -1,1 +1,98 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f1f3f6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #2874f0;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header input[type="text"] {
+  width: 40%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.category {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Deals Section */
+.deals {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.deals h2 {
+  margin-bottom: 15px;
+}
+
+.product-card {
+  display: inline-block;
+  width: 180px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #172337;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #bbb;
+  margin: 0 10px;
+  text-decoration: none;
+}
 
